@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 const Services = () => {
     return (
-        <div className = "Services">
+        <section className = "Services">
             <svg className = "elipse" width="971" height="832" viewBox="0 0 1500 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="742.346" cy="758.16" rx="477.288" ry="667.082" transform="rotate(-45.2744 742.346 758.16)" fill="#6B71D5"/>
             </svg>
@@ -46,7 +46,7 @@ const Services = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

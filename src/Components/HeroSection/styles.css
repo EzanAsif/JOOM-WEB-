@@ -16,8 +16,11 @@
     position: absolute;
     overflow: hidden;
     width: 66.6666rem;
-    animation: movement_one 20s ease-in-out infinite alternate both,movement_two 20s ease-in-out infinite both;
     z-index: -100;
+}
+
+.HeroSection .elipse  ellipse{
+    /* animation: movement_one 20s ease-in-out infinite alternate both,movement_two 20s ease-in-out infinite both; */
 }
 
 
@@ -344,6 +347,13 @@
 
 
 @media screen and (max-width: 500px){
+    .HeroSection .elipse{
+        height: 400px;
+        width: 400px;
+        left: 15rem;
+        animation: none;
+        top: 15rem;
+    }
     .HeroSection{
         height: auto;
     }

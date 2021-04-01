@@ -3,6 +3,7 @@
   margin: 50px auto;
   padding: 0 1.1111rem;
   max-width: 64.556rem;
+  
 }
 
 .Services .elipse {
@@ -71,113 +72,123 @@
   z-index: 303;
 }
 
-.Services .serviceSection .layout .pictures picture .android{
-    opacity: 1;
-    transform: translateX(0);
-    transition: transform 1s cubic-bezier(.215,.61,.355,1) .4s,opacity 0ms linear .4s;
-    height: 24.9444rem;
-    left: 9.5rem;
-    position: absolute;
+.Services .serviceSection .layout .pictures picture .android {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s,
+    opacity 0ms linear 0.4s;
+  height: 24.9444rem;
+  left: 9.5rem;
+  position: absolute;
+  top: 7rem;
+  width: 11.3888rem;
+  z-index: 302;
+}
+
+.Services .serviceSection .layout .serviceList {
+  flex-shrink: 0;
+  list-style-type: none;
+  margin-left: 1rem;
+  margin-top: 7rem;
+  max-width: 15.3333rem;
+}
+
+.Services .serviceSection .layout .serviceList .serviceItem {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.2s ease-out, opacity 0.1s linear;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 4.2rem;
+  position: relative;
+}
+
+.Services .serviceSection .layout .serviceList .serviceItem .serviceIcon {
+  flex-shrink: 0;
+  width: 5.5556rem;
+}
+
+@media screen and (max-width: 950px) {
+  .Services .serviceSection .layout .serviceList {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Services{
+    overflow-x: hidden;
+  }
+  .Services .serviceSection .layout .serviceList {
+    margin: 70px auto 0px auto;
+  }
+  .Services .elipse {
+    height: 35rem;
+    left: 0;
     top: 7rem;
-    width: 11.3888rem;
-    z-index: 302;
+    width: 100%;
+  }
+  .Services .serviceSection .layout {
+    flex-direction: column;
+  }
+  .Services .serviceSection .layout .pictures picture .laptop {
+    left: 12rem;
+  }
+  .Services .serviceSection .layout .pictures picture .iphone {
+    left: 10rem;
+  }
+  .Services .serviceSection .layout .pictures picture .android {
+    left: 5rem;
+  }
 }
 
-.Services .serviceSection .layout .serviceList{
-    flex-shrink: 0;
-    list-style-type: none;
-    margin-left: 1rem;
-    margin-top: 7rem;
-    max-width: 15.3333rem;
-}
+@media screen and (max-width: 500px) {
+  .HeroSection {
+    overflow-x: hidden !important;
+  }
+  .Services{
+    overflow-x: hidden;
+    margin-bottom: 0;
+  }
+  .Services .elipse {
+    width: 30rem;
+    height: 30rem;
+    left: 0;
+    top: 5rem;
+  }
+  .Services .serviceSection .layout .pictures {
+    height: 30rem;
+  }
+  .Services .serviceSection .title {
+    margin: 3rem auto 5rem auto;
+    padding: 0;
+  }
+  .Services .serviceSection .layout .serviceList {
+    margin: 0 auto;
+  }
+  .Services .serviceSection {
+    padding: 0;
+  }
+  .Services .serviceSection .layout .pictures picture .laptop {
+    height: 20.4rem;
+    left: 6rem;
+    width: 34.8rem;
+    top: 0;
+  }
 
-.Services .serviceSection .layout .serviceList .serviceItem{
-    opacity: 1;
-    transform: translateY(0);
-    transition: transform .2s ease-out,opacity .1s linear;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: 4.2rem;
-    position: relative;
-}
-
-.Services .serviceSection .layout .serviceList .serviceItem .serviceIcon{
-    flex-shrink: 0;
-    width: 5.5556rem;
-}
-
-@media screen and (max-width: 950px){
-    .Services .serviceSection .layout .serviceList{
-        margin-left: 0;
-        padding-left: 0;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .Services .serviceSection .layout .serviceList{
-        margin: 70px auto 0px auto;
-    }
-    .Services .elipse{
-        height: 35rem;
-        left: 0;
-        top: 7rem;
-        width: 100%;
-    }
-    .Services .serviceSection .layout{
-        flex-direction: column;
-    }
-    .Services .serviceSection .layout .pictures picture .laptop{
-        left: 12rem;
-    }
-    .Services .serviceSection .layout .pictures picture .iphone{
-        left: 10rem;
-    }
-    .Services .serviceSection .layout .pictures picture .android{
-        left: 5rem;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .Services .elipse {
-        width: 30rem;
-        height: 30rem;
-        left: 0;
-        top: 5rem;
-    }
-    .Services .serviceSection .layout .pictures{
-        height: 30rem;
-    }
-    .Services .serviceSection .title{
-        margin: 3rem auto 5rem auto;        
-        padding: 0;
-    }
-    .Services .serviceSection .layout .serviceList {
-        margin: 0 auto;
-    }
-    .Services .serviceSection {
-        padding: 0;
-    }
-    .Services .serviceSection .layout .pictures picture .laptop{
-        height: 20.4rem;
-        left: 6rem;
-        width: 34.8rem;
-        top: 0;
-    }
-    
-    .Services .serviceSection .layout .pictures picture .iphone{
-        left: 6rem;
-        width: 7.6rem;
-        height: 16.7333rem;
-        top: 7rem;
-    }
-    .Services .serviceSection .layout .pictures picture .android{
-        left: 0;
-        width: 7.6rem;
-        height: 16.7333rem;
-        top: 2rem;
-        
-    }
+  .Services .serviceSection .layout .pictures picture .iphone {
+    left: 6rem;
+    width: 7.6rem;
+    height: 16.7333rem;
+    top: 7rem;
+  }
+  .Services .serviceSection .layout .pictures picture .android {
+    left: 0;
+    width: 7.6rem;
+    height: 16.7333rem;
+    top: 2rem;
+  }
 }

@@ -1,0 +1,54 @@
+.ContactUs{
+    text-align: center;
+    border-top: 1px solid #d9d8d5;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.ContactUs .title{
+    font-size: 2.2222rem;
+    font-weight: 700;
+    line-height: 2.6667rem;
+    margin: 3.5rem auto 1.7778rem;
+    max-width: 25rem;
+    padding: 0 1.3889rem;
+
+}
+
+.ContactUs .legalAddDesc{
+    color: #909092;
+    font-size: .7778rem;
+    line-height: .8889rem;
+}
+
+.ContactUs .legalAdd{
+    font-size: .8889rem;
+    line-height: 1.0556rem;
+    margin-top: .4444rem;
+}
+.ContactUs .contactDesc{
+    color: #909092;
+    font-size: .8rem;
+    line-height: .8889rem;
+    margin-top: .4444rem;
+}
+
+.ContactUs .contactDesc a{
+    color: #222;
+}
+
+@media screen and (max-width: 500px){
+    .ContactUs{
+        margin-top: 0;
+    }
+    .ContactUs .title{
+        font-size: 1.8rem;
+        width: max-content;
+    }
+    .ContactUs .legalAdd {
+        font-size: .75rem;
+    }
+    .ContactUs .contactDesc{
+        font-size: 0.70rem;
+    }
+}

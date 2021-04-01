@@ -1,0 +1,107 @@
+.content{
+    display: flex;
+    height: 600px;
+    width: 85%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+.content .map{
+    width: 50%;
+    height: 100%;
+}
+
+.content .carousel{
+    width: 50%;
+    height: 100%;
+}
+
+.content .carousel .slick-slider.slick-initialized .slick-list{
+    top: -20px;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .content .map{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .content .carousel{
+        width: 100%;
+        height: 500px;
+    }
+    .content .carousel .slick-slider.slick-initialized .slick-list{
+       height: 500px !important;
+    }
+
+    .content .carousel .slick-slider.slick-initialized .slick-list .slick-track .slick-slide.slick-active.slick-current div div img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content .carousel .slick-slider .fa.fa-angle-right{
+        top: 45%;
+        right: 0% !important;
+        margin-right: 5px !important;
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .content .carousel .slick-slider .fa.fa-angle-left{
+        top: 45%;
+        margin-left: 5px;
+        left: 0%;
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .content .map{
+        width: 100%;
+        height: 400px;
+    }
+    
+    .content .carousel{
+        width: 100%;
+        height: 400px;
+    }
+    .content .carousel .slick-slider.slick-initialized .slick-list{
+       height: 400px !important;
+    }
+
+    .content .carousel .slick-slider.slick-initialized .slick-list .slick-track .slick-slide.slick-active.slick-current div div img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content .carousel .slick-slider .fa.fa-angle-right{
+        top: 45%;
+        right: 0% !important;
+        margin-right: 5px !important;
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .content .carousel .slick-slider .fa.fa-angle-left{
+        top: 45%;
+        margin-left: 5px;
+        left: 0%;
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+}

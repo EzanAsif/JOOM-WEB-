@@ -1,0 +1,14 @@
+.header{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    max-width: 64.556rem;
+    padding: 0 1.11111111rem;
+    height: 100px;
+}
+
+.header a svg{
+    height: 24px;
+    width: 110px;
+}

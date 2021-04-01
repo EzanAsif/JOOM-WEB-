@@ -1,0 +1,276 @@
+
+.HeroSection{
+    box-sizing: border-box;
+    height: 46.2222rem;
+    margin: 0 auto;
+    max-width: 64.556rem;
+    padding: 0 1.1111rem;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.HeroSection .elipse {
+    bottom: 0;
+    height: 66.6666rem;
+    left: 22%;
+    position: absolute;
+    overflow: hidden;
+    width: 66.6666rem;
+    animation: movement_one 20s ease-in-out infinite alternate both,movement_two 20s ease-in-out infinite both;
+}
+
+
+.HeroSection .primHeading{
+    display: flex;
+    flex-direction: column;
+    height: 22.1111rem;
+    justify-content: flex-end;
+    max-width: 70%;
+    position: relative;
+    left: 0;
+    z-index: 1;
+}
+
+.primHeading h1{
+    font-size: 5.6rem;
+    font-weight: 500;
+    line-height: 5.6rem;
+    margin-top: 8.5rem;
+    margin-bottom: 20px;
+}
+
+.primHeading .subtitle{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+
+.HeroSection .phoneBlock{
+    bottom: 0;
+    height: 65rem;
+    left: 38%;
+    position: absolute;
+    width: 62rem;
+}
+
+.HeroSection .phoneBlock .phoneWrapper{
+    height: 25.3888rem;
+    position: absolute;
+    width: 12.8888rem;
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone1{
+    bottom: 38.5rem;
+    left: 40.15rem;
+    transform: rotate(50deg);
+}
+
+.HeroSection .phoneBlock .phoneWrapper-1 picture img{
+    transition: transform 2s cubic-bezier(.215,.61,.355,1) .2s,opacity 0ms .2s;
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone2{
+    bottom: 17rem;
+    left: 39rem;
+    transform: rotate(50deg);
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone2 picture img{
+    transition: transform 2s cubic-bezier(.215,.61,.355,1) .4s,opacity 0ms .4s;
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone3{
+    bottom: 29rem;
+    left: 16rem;
+    transform: rotate(-40deg);
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone3 picture img{
+    transition: transform 2s cubic-bezier(.215,.61,.355,1) .6s,opacity 0ms .6s;
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone4{
+    bottom: 4.1rem;
+    left: 16.9rem;
+    transform: rotate(-40deg);
+}
+
+.HeroSection .phoneBlock .phoneWrapper.phone4 picture img{
+    transition: transform 2s cubic-bezier(.215,.61,.355,1) .8s,opacity 0ms .8s;
+}
+
+.HeroSection .usersAmount{
+    color: #909092;
+    font-size: 2.2222rem;
+    line-height: 3.4445rem;
+    margin-top: 4.8889rem;
+    position: relative;
+}
+
+.HeroSection .usersAmount strong{
+    color: #222;
+    font-size: 3.3333rem;
+    font-weight: 700;
+}
+
+@keyframes movement_one
+{
+    0%,
+  100% { transform: none; }
+   50% { transform: translate(10%, 10%) rotateY(10deg) scale(1.2); }
+}
+
+@keyframes movement_two
+{
+    0%,
+  100% { transform: none; }
+   50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.2);}
+}
+
+@keyframes transform
+{
+    0%, 100%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1) ;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    .HeroSection .elipse{
+        width: 1000px;
+        height: 1000px;
+    }
+    .HeroSection .primHeading{
+        height: max-content;   
+    }
+    .HeroSection .primHeading h1{
+        margin: 2.5rem 0;
+        font-size: 4.6rem;
+    }
+    .HeroSection .phonesBlock  {
+        height: 20rem;
+        width: 10.416rem;
+    }
+    .HeroSection .phoneBlock .phoneWrapper{
+        width: 100%;
+        height: 100%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone1 {
+        top: 30rem;
+        left: 10rem;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone3 {
+        bottom: 15rem;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone4 {
+        top: 10.5rem;
+        left: 17.5rem;
+    }
+    .primHeading .subtitle{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .HeroSection .elipse{
+        width: 200%;
+    }
+    .HeroSection .primHeading{
+        height: auto;
+        margin: 0 auto;
+        max-width: 25rem;
+    }
+    .HeroSection .primHeading h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+        line-height: 4rem;
+        margin: 1rem 0;
+    }
+
+    .HeroSection .primHeading .subtitle{
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+        margin-top: 0;
+    }
+    .HeroSection .elipse{
+        bottom: auto;
+        height: 45rem;
+        left: auto;
+        margin-left: -50%;
+        position: absolute;
+        top: 16rem;
+        width: 200%;
+    }
+    .HeroSection .phoneBlock{
+        bottom: auto;
+        height: 20rem;
+        left: auto;
+        margin: 8rem auto 18rem;
+        position: relative;
+        width: 10.416rem;
+    }
+
+    .HeroSection .phoneBlock .phoneWrapper{
+        height: 300px;
+        width: 150px;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone1{
+        bottom: auto;
+        left: 80%;
+        position: absolute;
+        top: -50%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone1 img{
+        transition: transform 1.2s cubic-bezier(.215,.61,.355,1) .12s,opacity 0ms .12s;
+        width: 100%;
+        height: 100%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone2{
+        left: 68%;
+        top: 29%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone2 img{
+        transition: transform 1.2s cubic-bezier(.215,.61,.355,1) .24s,opacity 0ms .24s;
+        width: 100%;
+        height: 100%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone3{
+        left: -66%;
+        top: -17%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone3 img{
+        transition: transform 1.2s cubic-bezier(.215,.61,.355,1) .36s,opacity 0ms .36s;
+        width: 100%;
+        height: 100%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone4{
+        left: -60%;
+        top: 77%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone4 img{
+        transition: transform 1.2s cubic-bezier(.215,.61,.355,1) .48s,opacity 0ms .48s;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px){
+    .HeroSection .phoneBlock{
+        height: 16rem;
+        width: 8.3333rem;
+    }
+    .HeroSection .phoneBlock .phoneWrapper{
+        height: 240px;
+        width: 120px;
+    }
+}

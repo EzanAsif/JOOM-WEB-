@@ -1,0 +1,59 @@
+.App #StartSelling{
+    background: #fff !important;
+    position: relative;
+    padding: 30px 0px;
+    margin: 20px 0px;
+}
+
+#StartSelling div{
+    color: #222;
+}
+
+#StartSelling div canvas{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.StartSellingContent{
+    margin: 5.5556rem auto;
+    max-width: 21.5rem;
+    padding: 0 1.1111rem;
+    text-align: center;
+}
+
+.SellingTitle{
+    font-size: 2.2222rem;
+    font-weight: 700;
+    line-height: 2.6667rem;
+    margin: 3.3rem auto 1rem;
+}
+
+.SellingDesc{
+    font-size: 1.1111rem;
+    line-height: 1.6667rem;
+    margin-bottom: 1.8rem;
+}
+
+.SellingButton{
+    border-radius: 1.3889rem;
+    font-size: .8889rem;
+    font-weight: 600;
+    height: 2.7rem;
+    line-height: 1.0556rem;
+    min-width: 11.1111rem;
+    background: #ff7676;
+    border: 1px solid #ff7676;
+    color: #fff;
+    padding: .735em 1em;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: .1s ease;
+}

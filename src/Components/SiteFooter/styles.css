@@ -1,0 +1,20 @@
+.SiteFooter{
+    align-items: center;
+    box-sizing: border-box;
+    color: #909092;
+    display: flex;
+    font-size: .88888889rem;
+    line-height: 1.05555556rem;
+    margin: 3.33333333rem auto 0;
+    max-width: 64.556rem;
+    padding: 0 1.11111111rem;
+}
+
+.SiteFooter a svg{
+    height: 27px;
+    width: 145px;
+}
+
+.copyright{
+    margin-left: 3rem;
+}

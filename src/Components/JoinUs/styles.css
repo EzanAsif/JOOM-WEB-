@@ -1,25 +1,21 @@
 .JoinUs {
   width: 100%;
-  display: flex;
-  margin-top: 80px;
-  height: 700px;
+  position: relative;
+  overflow-x: hidden;
+  /* display: flex; */
 }
 
 .JoinUs .elipse{
-  height: 50rem;
-  left: 66%;
-  position: relative;
-  top: 0;
-  width: 50rem;
-  z-index: -1;
+    height: 50rem;
+    left: 66%;
+    position: absolute;
+    top: 0;
+    width: 50rem;
 }
 
-.JoinUs .content {
-    -ms-flex-align: start;
+.JoinUs .Joincontent {
     align-items: flex-start;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 45%;
     margin-top: 5.5rem;
@@ -27,14 +23,15 @@
     position: relative;
 }
 
-.JoinUs .content .title{
+.JoinUs .Joincontent .title{
     font-size: 2.2222rem;
     font-weight: 700;
     line-height: 2.6667rem;
     margin-bottom: 1.7778rem;
+    text-align: center;
 }
 
-.JoinUs .content .desc{
+.JoinUs .Joincontent .desc{
     font-size: 1.1111rem;
     line-height: 1.6667rem;
     margin-bottom: 1.7778rem;
@@ -42,7 +39,7 @@
 
 }
 
-.JoinUs .content .buttonContainer{
+.JoinUs .Joincontent .buttonContainer{
     border-radius: 1.3889rem;
     font-size: .8889rem;
     font-weight: 600;
@@ -51,7 +48,7 @@
     min-width: 11.1111rem;
 }
 
-.JoinUs .content .buttonContainer a{
+.JoinUs .Joincontent .buttonContainer a{
     background: #ff7676;
     border: 1px solid #ff7676;
     color: #fff;
@@ -73,15 +70,52 @@
     min-width: 11.1111rem;
 }
 
-.JoinUs .content picture .picMain{
+.JoinUs .Joincontent picture .picMain{
     margin-bottom: 5.3333rem;
     margin-top: 3.4722rem;
     border-radius: .5556rem;
 }
 
-.JoinUs .content .sidePic{
+.JoinUs .Joincontent .sidePic{
     left: -30rem;
     position: absolute;
     top: 0;
     border-radius: .5556rem;
+}
+
+@media screen and (max-width: 900px){
+    .JoinUs .Joincontent .sidePic{
+        display: none;
+    }
+
+    .JoinUs .Joincontent{
+        margin-left: 0;
+    }
+
+    .JoinUs .Joincontent .picMain{
+        width: 40rem;
+    }
+
+    .JoinUs .Joincontent .desc{
+        font-size: 0.99rem;
+        text-align: center;
+    }
+
+}   
+
+@media screen and (max-width: 800px){
+    .JoinUs .Joincontent{
+        align-items: center;
+    }
+
+    .JoinUs .Joincontent .picMain{
+        height: 18rem;
+        margin-bottom: 2.5rem;
+        margin-top: 4rem;
+        width: auto;
+    }
+    .JoinUs .elipse{
+        width: 30rem;
+        height: 30rem;
+    }
 }

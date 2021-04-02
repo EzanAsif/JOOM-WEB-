@@ -3,7 +3,7 @@
     box-sizing: border-box;
     height: 46.2222rem;
     margin: 0 auto;
-    max-width: 64.556rem;
+    max-width: 80.556rem;
     padding: 0 1.1111rem;
     position: relative;
     width: 100%;
@@ -242,6 +242,13 @@
         margin-bottom: .9333rem;
         width: 4.6667rem;
     }
+    .HeroSection .appsBlock .appsItem a{
+        justify-content: center;
+    }
+
+    .HeroSection .appsBlock .appsItem a .ratingText{
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -343,6 +350,15 @@
         margin-bottom: .9333rem;
         width: 4.6667rem;
     }
+
+    .HeroSection .appsBlock .appsItem a{
+        justify-content: center;
+    }
+
+    .HeroSection .appsBlock .appsItem a .ratingText{
+        margin-right: 0;
+    }
+
 }
 
 

@@ -10,14 +10,27 @@
 }
 
 .HeroSection .elipse {
-    bottom: 0;
-    height: 66.6666rem;
-    left: 22%;
+    bottom: 15%;
+    height: 50rem;
+    left: 35%;
     position: absolute;
     overflow: hidden;
-    width: 66.6666rem;
+    width: 50rem;
     z-index: -100;
+    animation: elipseAnimationStart 7s ease-in-out infinite alternate;
 }
+
+@keyframes elipseAnimationStart
+{   from{
+        transform: rotate(0);
+    }
+    to{
+        transform : translate(20%, 20%) rotate(180deg) scale(1.2); 
+    }
+
+}
+
+
 
 .HeroSection .elipse  ellipse{
     /* animation: movement_one 20s ease-in-out infinite alternate both,movement_two 20s ease-in-out infinite both; */
@@ -143,7 +156,7 @@
     align-items: center;
     display: flex;
     text-decoration: none;
-    flex-wrap: wrap;
+
 }
 
 .HeroSection .appsBlock .appsItem a .downloadsIcon{
@@ -207,6 +220,8 @@
     .HeroSection .elipse{
         width: 1000px;
         height: 1000px;
+        animation: elipseAnimationStart 10s ease infinite alternate;
+
     }
     .HeroSection .primHeading{
         height: max-content;   
@@ -257,6 +272,8 @@
     }
     .HeroSection .elipse{
         width: 200%;
+        animation: elipseAnimationStart 10s ease infinite alternate;
+
     }
     .HeroSection .primHeading{
         height: auto;
@@ -366,9 +383,10 @@
     .HeroSection .elipse{
         height: 400px;
         width: 400px;
-        left: 15rem;
-        animation: none;
-        top: 15rem;
+        left: 10rem;
+        top: 10rem;
+        animation: elipseAnimationStart 5s ease infinite alternate;
+
     }
     .HeroSection{
         height: auto;
@@ -376,10 +394,27 @@
     .HeroSection .phoneBlock{
         height: 16rem;
         width: 8.3333rem;
+        margin: 10rem auto 5rem;
     }
     .HeroSection .phoneBlock .phoneWrapper{
-        height: 240px;
-        width: 120px;
+        height: 200px;
+        width: 100px;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone1{
+        left: 55%;
+        top: -70%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone2{
+        left: 50%;
+        top: -10%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone3 {
+        left: -60%;
+        top: -45%;
+    }
+    .HeroSection .phoneBlock .phoneWrapper.phone4 {
+        left: -57%;
+        top: 22%;
     }
     .HeroSection .primHeading h1{
         font-size: 3rem;

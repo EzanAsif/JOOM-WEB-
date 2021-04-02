@@ -1,17 +1,28 @@
 .JoinUs {
   width: 100%;
   position: relative;
-  overflow-x: hidden;
   /* display: flex; */
 }
 
 .JoinUs .elipse{
-    height: 50rem;
-    left: 66%;
+    height: 40rem;
+    left: 60%;
     position: absolute;
     top: 0;
-    width: 50rem;
+    width: 40rem;
+    animation: elipseAnimationStart 5s ease-in-out infinite alternate;
 }
+
+@keyframes elipseAnimationStart
+{   from{
+        transform: rotate(0);
+    }
+    to{
+        transform : translate(20%, 20%) rotate(180deg) scale(1.2); 
+    }
+
+}
+
 
 .JoinUs .Joincontent {
     align-items: flex-start;
@@ -118,4 +129,14 @@
         width: 30rem;
         height: 30rem;
     }
+}
+
+@media screen and (max-width: 500px){
+
+    .JoinUs .elipse{
+        width: 25rem;
+        height: 25rem;
+        left: 30%;
+    }
+
 }

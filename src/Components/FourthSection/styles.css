@@ -1,9 +1,9 @@
 .content{
     display: flex;
     height: 600px;
-    width: 85%;
-    margin: 10px auto;
+    width: 100%;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .content .map{
     width: 50%;
@@ -16,7 +16,7 @@
 }
 
 .content .carousel .slick-slider.slick-initialized .slick-list{
-    top: -20px;
+    /* top: -20px; */
 }
 
 

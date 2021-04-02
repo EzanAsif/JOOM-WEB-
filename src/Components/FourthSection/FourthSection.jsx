@@ -40,7 +40,7 @@ const FourthSection = () => {
             alignItems: "center",
           }}
         ></i>
-        ,
+        
       </>
     );
   }
@@ -70,14 +70,14 @@ const FourthSection = () => {
             alignItems: "center",
           }}
         ></i>
-        ,
+        
       </>
     );
   }
   return (
     <div className="content">
       <div className="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139179.58709566444!2d23.988736985783305!3d56.971395812037684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2sRiga%2C%20Latvia!5e0!3m2!1sen!2s!4v1617315633665!5m2!1sen!2s" width="600" height="450" style={{border:0, height : '100%', width : '100%',}}></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139179.58709566444!2d23.988736985783305!3d56.971395812037684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2sRiga%2C%20Latvia!5e0!3m2!1sen!2s!4v1617315633665!5m2!1sen!2s" width="600" height="450" style={{border:0, height : '100%', width : '100%'}}></iframe>
       </div>
       <div className="carousel">
         <Slider {...settings}>

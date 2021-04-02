@@ -399,4 +399,10 @@
     .HeroSection .appsBlock .appsItem{
         width: 60%;
     }
+    .HeroSection .appsBlock .appsItem a .downloadsIcon{
+        margin-right: 0;
+    }
+    .HeroSection .appsBlock .appsItem a .ratingText{
+        margin-right: 0;
+    }
 }

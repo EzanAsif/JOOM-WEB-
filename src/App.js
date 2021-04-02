@@ -3,6 +3,7 @@ import SiteHeader from './Components/Header/SiteHeader'
 import Services from './Components/Services/Services'
 import ContactUs from './Components/ContactUs/ContactUs'
 import FourthSection from './Components/FourthSection/FourthSection'
+import JoinUs from './Components/JoinUs/JoinUs'
 
 import './App.css'
 function App() {
@@ -13,8 +14,7 @@ function App() {
       <Services/>
       <ContactUs/>
       <FourthSection/>
-      <br />
-      j kjs
+      <JoinUs />
     </header>
   );
 }

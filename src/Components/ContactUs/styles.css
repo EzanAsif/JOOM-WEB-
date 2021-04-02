@@ -44,6 +44,7 @@
     .ContactUs .title{
         font-size: 1.8rem;
         width: max-content;
+        padding: 0;
     }
     .ContactUs .legalAdd {
         font-size: .75rem;

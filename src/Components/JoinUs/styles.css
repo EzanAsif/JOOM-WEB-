@@ -1,0 +1,87 @@
+.JoinUs {
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+  height: 700px;
+}
+
+.JoinUs .elipse{
+  height: 50rem;
+  left: 66%;
+  position: relative;
+  top: 0;
+  width: 50rem;
+  z-index: -1;
+}
+
+.JoinUs .content {
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 45%;
+    margin-top: 5.5rem;
+    padding: 0 1.3889rem;
+    position: relative;
+}
+
+.JoinUs .content .title{
+    font-size: 2.2222rem;
+    font-weight: 700;
+    line-height: 2.6667rem;
+    margin-bottom: 1.7778rem;
+}
+
+.JoinUs .content .desc{
+    font-size: 1.1111rem;
+    line-height: 1.6667rem;
+    margin-bottom: 1.7778rem;
+    max-width: 19.5rem;
+
+}
+
+.JoinUs .content .buttonContainer{
+    border-radius: 1.3889rem;
+    font-size: .8889rem;
+    font-weight: 600;
+    height: 2.7rem;
+    line-height: 1.0556rem;
+    min-width: 11.1111rem;
+}
+
+.JoinUs .content .buttonContainer a{
+    background: #ff7676;
+    border: 1px solid #ff7676;
+    color: #fff;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1.3em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: .1s ease;
+    user-select: none;
+    border-radius: 1.3889rem;
+    font-size: .8889rem;
+    font-weight: 600;
+    height: 2.7rem;
+    min-width: 11.1111rem;
+}
+
+.JoinUs .content picture .picMain{
+    margin-bottom: 5.3333rem;
+    margin-top: 3.4722rem;
+    border-radius: .5556rem;
+}
+
+.JoinUs .content .sidePic{
+    left: -30rem;
+    position: absolute;
+    top: 0;
+    border-radius: .5556rem;
+}

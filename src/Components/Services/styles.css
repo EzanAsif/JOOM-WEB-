@@ -10,9 +10,22 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 25%;
-  top: 0;
+  left: 0%;
+  top: 0%;
+  animation: elipseAnimation 10s ease infinite alternate;
 }
+
+@keyframes elipseAnimation
+{   0%, 100%{
+        transform: translate(0);
+    }
+    100%{
+        transform : translateY(2%) rotate(180deg); 
+    }
+
+}
+
+
 
 .Services .serviceSection {
   display: block;
@@ -117,6 +130,11 @@
     margin-left: 0;
     padding-left: 0;
   }
+  .Services .elipse {
+
+    animation: elipseAnimation 7s ease infinite alternate;
+  }
+  
 }
 
 @media screen and (max-width: 800px) {
@@ -143,6 +161,10 @@
   }
   .Services .serviceSection .layout .pictures picture .android {
     left: 5rem;
+  }
+  .Services .elipse {
+
+    animation: elipseAnimation 7s ease infinite alternate;
   }
 }
 
@@ -191,5 +213,9 @@
     width: 7.6rem;
     height: 16.7333rem;
     top: 2rem;
+  }
+  .Services .elipse {
+
+    animation: elipseAnimation 6s ease infinite alternate;
   }
 }

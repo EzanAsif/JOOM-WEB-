@@ -21,10 +21,10 @@
 }
 
 @keyframes elipseAnimationStart
-{   from{
+{   0%, 100%{
         transform: rotate(0);
     }
-    to{
+    100%{
         transform : translate(20%, 20%) rotate(180deg) scale(1.2); 
     }
 

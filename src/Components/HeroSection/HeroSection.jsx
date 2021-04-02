@@ -64,7 +64,7 @@ const HeroSection = () => {
           <div className="phoneWrapper phone2">
             <picture>
               <img
-                src="https://resources.joomcdn.net/about-page/langs/en/iphones/iphone1-232x457.png"
+                src="https://resources.joomcdn.net/about-page/langs/en/iphones/iphone2-232x457.png"
                 alt=""
                 data-aos="slide-down"
                 data-aos-once = "true" 
@@ -74,7 +74,7 @@ const HeroSection = () => {
           <div className="phoneWrapper phone3">
             <picture>
               <img
-                src="https://resources.joomcdn.net/about-page/langs/en/iphones/iphone1-232x457.png"
+                src="https://resources.joomcdn.net/about-page/langs/en/iphones/iphone3-232x457.png"
                 alt=""
                 data-aos="slide-down"
                 data-aos-once = "true" 
@@ -84,7 +84,7 @@ const HeroSection = () => {
           <div className="phoneWrapper phone4">
             <picture>
               <img
-                src="https://resources.joomcdn.net/about-page/langs/en/iphones/iphone1-232x457.png"
+                src="https://resources.joomcdn.net/about-page/langs/en/iphones/iphone4-232x457.png"
                 alt=""
                 data-aos="slide-up"
                 data-aos-once = "true" 

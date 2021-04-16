@@ -1,5 +1,5 @@
 # Hosted Web
-### `[http://joom-ea.surge.sh/]`
+### `http://joom-ea.surge.sh/]`
 
 
 # Getting Started with Create React App
